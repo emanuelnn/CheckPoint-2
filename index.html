@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Turismo Brasil</title>
+</head>
+
+<body>
+    <div>
+        <form>
+            <div class="form">
+                <div class="lineOne">
+                    <div>
+                        <label for="nome"><strong>Nome:</strong></label>
+                        <input type="text" form="nome" name="nome">
+                    </div>
+                    <div id="telefone">
+                        <label for="telefone"><strong>Telefone</strong></label>
+                        <input type="text" form="telefone" name="telefone">
+                    </div>
+                </div>
+
+                <div class="lineTwo">
+                    <div>
+                        <label for="email"><strong>E-mail:</strong></label>
+                        <input type="email" form="email" name="email">
+                    </div>
+                    <div class="line_sub">
+                        <label for="nascimento"><strong>Data de Nascimento</strong></label>
+                        <input type="date" form="nascimento" name="nascimento">
+                    </div>
+                </div>
+
+                <div class="lineThree">
+                    <label for="adult"><strong>Maior de idade?</strong></label>
+                    <div>
+                        <input type="radio" form="adult" name="adult">Sim
+                        <input type="radio" form="adult" name="adult">Não
+                    </div>
+                </div>
+                <div class="lineThree">
+                    <label for="adult"><strong>Sexo</strong></label>
+                    <div>
+                        <input type="radio" form="sexo" name="sexo">Masculino
+                        <input type="radio" form="sexo" name="">Feminino
+                    </div>
+                </div>
+
+                <div class="lineFour">
+                    <div>
+                        <label><strong>Cidades de Interesse</strong></label>
+                        <div>
+                            <div class="cityInteresting"><input type="select" form="opcao1" name="opcao1" required=true>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div id="botao"><h3><a href="http://www.google.com">Enviar</h3></a></div>
+                </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

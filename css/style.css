@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Red+Hat+Mono:wght@300&display=swap'); /* Red+Hat+Mono */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(../imgs/background.png);
+    background-repeat: no-repeat;
+   background-size:cover;
+   margin: auto auto auto auto;
+   width: 100%;
+
+}
+form{
+    width:50%;
+    position:absolute;
+    right:50%;
+    transform: translate(50%,50%);
+    margin: auto auto auto auto;
+    padding:20px;
+    background-color:rgba(255, 255, 255, 0.568);
+    border-radius:50px;
+    font-size:18px;
+    font-family: Poiret One,Arial, Helvetica, sans-serif;
+    animation: go-back 2s;
+}
+
+@keyframes go-back {
+    0% {
+        opacity:0%;
+        transform:translateX(50%);
+       
+    }
+    100% {
+        opacity:100%;
+    }
+    
+}
+
+.lineOne {
+    margin: auto auto auto auto;
+    display:flex;
+    flex-direction: column;
+    margin-top:10px;
+    align-items:center;
+    padding:10px; 
+}
+
+#telefone{margin-top:1%;}
+
+.lineTwo, .lineThree,.line_sub,.lineFour {
+    margin:1% auto auto auto;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+
+input{
+    background-color: rgba(105, 104, 104, 0.322);
+    border-radius: 50px 100px;
+    
+}
+input:hover{
+    background-color: rgba(255, 255, 255, 0.322);
+    border-radius: 200px 100px;
+
+}
+
+#botao {
+    color:white;
+    width: 100px;
+    height: auto;
+    border-radius: 100px;
+    text-align: center;
+    padding:5px;
+     background: rgb(4, 90, 183);
+
+}
+
+.cityInteresting{
+    margin:10px 10px 10px 10px;
+}
+
+a:link {
+ text-decoration: none;
+ color:white;
+}
+
